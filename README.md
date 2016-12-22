@@ -150,6 +150,55 @@ HTML Page Structure
 <br />
 <br />
 
+## Elements
+
+HTML Elements
+
+  * An HTML element usually consists of a start tag and end tag, with the content inserted in between.
+
+  * The HTML element is everything from the start tag to the end tag.
+
+  * HTML elements with no content are called **empty elements**. Empty elements do not have an end tag, such as the `<br>` element (which indicates a line break).
+
+Nested HTML Elements
+
+  * HTML elements can be nested (elements can contain elements).
+
+  * All HTML documents consist of nested HTML elements.
+
+Do Not Forget the End Tag
+
+  * Some HTML elements will display correctly, even if you forget the end tag：
+
+    ```html
+    <html>
+      <body>
+
+        <p>This is a paragraph
+        <p>This is a paragraph
+
+      </body>
+    </html>
+    ```
+  * The example above works in all browsers, because the closing tag is considered optional.
+
+  > Never rely on this. It might produce unexpected results and/or errors if you forget the end tag.
+
+Empty HTML Elements
+
+HTML elements with no content are called empty elements.
+
+`<br>` is an empty element without a closing tag (the `<br>` tag defines a line break).
+
+Empty elements can be "closed" in the opening tag like this: `<br />`.
+
+HTML5 does not require empty elements to be closed. But if you want stricter validation, or if you need tomake your document readable by XML parsers, you must close all HTML elements properly.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
 ## Reference Information
 
 HTML Tutorial (Website：[w3schools](http://www.w3schools.com/html/default.asp))
