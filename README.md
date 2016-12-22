@@ -309,7 +309,7 @@ Single or Double Quotes ?
 <a name="global-attributes"></a>
 Global Attributes
 
-  * [The global attributes](http://www.w3schools.com/tags/ref_standardattributes.asp) can be used on **any** HTML element.
+  * [The global attributes](http://www.w3schools.com/tags/ref_standardattributes.asp) can be used on **any** HTML element, such as `id`、`class` and `style`.
 
 **[⬆ back to top](#table-of-contents)**
 
