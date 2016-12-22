@@ -150,4 +150,6 @@ HTML Tutorial (Website：[w3schools](http://www.w3schools.com/html/default.asp))
 
 How Browsers Work: Behind the scenes of modern web browsers (Author：Tali Garsiel、Paul Irish)
 
+Anatomy of an HTML element (Website：[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#Anatomy_of_an_HTML_element))
+
 <br />
