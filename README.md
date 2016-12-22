@@ -85,8 +85,7 @@ HTML Tags
     - HTML tags normally come in pairs like `<p>` and `</p>`
     - The first tag in a pair is the start tag, the second tag is the end tag
     - The end tag is written like the start tag, but with a forward slash inserted before the tag name
-
-    > The start tag is also called the opening tag, and the end tag the closing tag.
+    - The start tag is also called the **opening tag**, and the end tag the **closing tag**.
 
 **[⬆ back to top](#table-of-contents)**
 
