@@ -107,6 +107,12 @@ Web Browsers
 <a name="html-page-structure"></a>
 HTML Page Structure
 
+  * All HTML documents must start with a document type declaration: `<!DOCTYPE html>`.
+
+  * The HTML document itself begins with <html> and ends with </html>.
+
+  * The visible part of the HTML document is between <body> and </body>.
+
   * Below is an HTML page structure：
 
     ```html
