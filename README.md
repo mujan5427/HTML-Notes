@@ -160,12 +160,24 @@ HTML Elements
 
   * HTML elements with no content are called **empty elements**. Empty elements do not have an end tag, such as the `<br>` element (which indicates a line break).
 
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="nested-html-elements"></a>
 Nested HTML Elements
 
   * HTML elements can be nested (elements can contain elements).
 
   * All HTML documents consist of nested HTML elements.
 
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="do-not-forget-the-end-tag"></a>
 Do Not Forget the End Tag
 
   * Some HTML elements will display correctly, even if you forget the end tag：
@@ -184,15 +196,33 @@ Do Not Forget the End Tag
 
   > Never rely on this. It might produce unexpected results and/or errors if you forget the end tag.
 
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="empty-html-elements"></a>
 Empty HTML Elements
 
-HTML elements with no content are called empty elements.
+  * HTML elements with no content are called empty elements.
 
-`<br>` is an empty element without a closing tag (the `<br>` tag defines a line break).
+  * `<br>` is an empty element without a closing tag (the `<br>` tag defines a line break).
 
-Empty elements can be "closed" in the opening tag like this: `<br />`.
+  * Empty elements can be "closed" in the opening tag like this：`<br />`.
 
-HTML5 does not require empty elements to be closed. But if you want stricter validation, or if you need tomake your document readable by XML parsers, you must close all HTML elements properly.
+  * HTML5 does not require empty elements to be closed. But if you want stricter validation, or if you need to make your document readable by XML parsers, you must close all HTML elements properly.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="use-lowercase-tags"></a>
+Use Lowercase Tags
+
+  * HTML tags are not case sensitive：`<P>` means the same as `<p>`.
+
+  * The HTML5 standard does not require lowercase tags, but W3C **recommends** lowercase in HTML, and demands lowercase for stricter document types like XHTML.
 
 **[⬆ back to top](#table-of-contents)**
 
