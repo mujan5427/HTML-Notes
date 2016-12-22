@@ -229,6 +229,93 @@ Use Lowercase Tags
 <br />
 <br />
 
+## Attributes
+
+HTML Attributes
+
+  * All HTML elements can have attributes.
+
+  * Attributes provide additional information about an element.
+
+  * Attributes are always specified in the start tag.
+
+  * Attributes usually come in name/value pairs like：name="value".
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="use-lowercase-attributes"></a>
+Use Lowercase Attributes
+
+  * The HTML5 standard does not require lowercase attribute names.
+
+  * The title attribute can be written with uppercase or lowercase like Title and/or TITLE.
+
+  * W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="quote-attribute-values"></a>
+Quote Attribute Values
+
+  * The HTML5 standard does not require quotes around attribute values.
+
+    ```html
+    <a href=http://www.w3schools.com>
+    ```
+
+  * W3C **recommends** quotes in HTML, and demands quotes for stricter document types like XHTML.
+
+  * Sometimes it is necessary to use quotes. This example will not display the title attribute correctly, because it contains a space：
+
+    ```html
+    <p title=About W3Schools>
+    ```
+
+    > Using quotes are the most common. Omitting quotes can produce errors.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="single-or-double-quotes"></a>
+Single or Double Quotes ?
+
+  * Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+
+  * In some situations, when the attribute value itself contains double quotes, it is necessary to use single   quotes：
+
+  ```html
+  <p title='John "ShotGun" Nelson'>
+  ```
+
+  Or vice versa：
+
+  ```html
+  <p title="John 'ShotGun' Nelson">
+  ```
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="global-attributes"></a>
+Global Attributes
+
+  * [The global attributes](http://www.w3schools.com/tags/ref_standardattributes.asp) can be used on **any** HTML element.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
 ## Reference Information
 
 HTML Tutorial (Website：[w3schools](http://www.w3schools.com/html/default.asp))
