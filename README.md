@@ -459,11 +459,11 @@ Conditional Comments
 
   > Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.
 
+  > [Seeing examples of block-level and inline element on W3Schools](http://www.w3schools.com/html/html_blocks.asp)
+
 Block-level Elements
 
   * A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
-
-  <div style="border-color: #4CAF50;border-width: 1px;border-style: solid;padding: 5px">The div element is a block-level element.</div>
 
   * Some examples of block-level elements：
 
@@ -481,8 +481,6 @@ Block-level Elements
 Inline Elements
 
   * An inline element does not start on a new line and only takes up as much width as necessary.
-
-  This is <span style="border-color: #4CAF50;border-width: 1px;border-style: solid;padding: 5px">an inline span element inside</span> a paragraph.
 
   * Some Examples of inline elements：
 
