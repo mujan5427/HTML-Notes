@@ -6,6 +6,8 @@
 
 [Attributes](#attributes)
 
+[Comments](#comments)
+
 [DOM](#dom)
 
 [BOM](#bom)
@@ -310,6 +312,45 @@ Single or Double Quotes ?
 Global Attributes
 
   * [The global attributes](http://www.w3schools.com/tags/ref_standardattributes.asp) can be used on **any** HTML element, such as `id`、`class` and `style`.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+## Comments
+
+HTML Comment
+
+  * Comment tags are used to insert comments in the HTML source code.
+
+  * You can add comments to your HTML source by using the following syntax：
+
+    ```html
+    <!-- Write your comments here -->
+    ```
+
+  * There is an exclamation point `(!)` in the opening tag, but not in the closing tag.
+
+  * Comments are not displayed by the browser, but they can help document your HTML source code.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="conditional-comments"></a>
+Conditional Comments
+
+  * You might stumble upon conditional comments in HTML：
+
+    ```html
+    <!--[if IE 9]>
+        .... some HTML here ....
+    <![endif]-->
+    ```
+
+  * Conditional comments defines some HTML tags to be executed by Internet Explorer only.
 
 **[⬆ back to top](#table-of-contents)**
 
