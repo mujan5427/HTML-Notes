@@ -463,7 +463,7 @@ Block-level Elements
 
   * A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
 
-  <div style="border-color: #4CAF50;border-width: 1px;border-style: solid;padding: 5px">The `<div>` element is a block-level element.</div>
+  <div style="border-color: #4CAF50;border-width: 1px;border-style: solid;padding: 5px">The div element is a block-level element.</div>
 
   * Some examples of block-level elements：
 
@@ -482,7 +482,7 @@ Inline Elements
 
   * An inline element does not start on a new line and only takes up as much width as necessary.
 
-  This is <span style="border-color: #4CAF50;border-width: 1px;border-style: solid;padding: 5px">an inline `<span>` element inside</span> a paragraph.
+  This is <span style="border-color: #4CAF50;border-width: 1px;border-style: solid;padding: 5px">an inline span element inside</span> a paragraph.
 
   * Some Examples of inline elements：
 
