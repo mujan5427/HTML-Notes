@@ -8,6 +8,8 @@
 
 [Comments](#comments)
 
+[Block and Inline Elements](#block-and-inline-elements)
+
 [DOM](#dom)
 
 [BOM](#bom)
@@ -146,6 +148,102 @@ HTML Page Structure
     - The `<body>` element contains the visible page content
     - The `<h1>` element defines a large heading
     - The `<p>` element defines a paragraph
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="how-html-elements-should-be-displayed"></a>
+How HTML elements should be displayed ?
+
+  * Styling HTML with CSS
+
+  * CSS is a language that describes the style of an HTML document.
+
+  * CSS describes how HTML elements should be displayed.
+
+  * CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+
+  * CSS can be added to HTML elements in 3 ways：
+
+    - Inline - by using the style attribute in HTML elements
+
+      ```html
+      <h1 style="color:blue;">This is a Blue Heading</h1>
+      ```
+
+    - Internal - by using a `<style>` element in the `<head>` section
+
+      ```html
+      <!DOCTYPE html>
+      <html>
+
+        <head>
+
+          <style>
+
+            body {background-color: powderblue;}
+            h1   {color: blue;}
+            p    {color: red;}
+
+          </style>
+
+        </head>
+
+        <body>
+
+          <h1>This is a heading</h1>
+          <p>This is a paragraph.</p>
+
+        </body>
+
+      </html>
+      ```
+
+    - External - by using an external CSS file
+
+      ```html
+      <!DOCTYPE html>
+      <html>
+
+        <head>
+          <link rel="stylesheet" href="styles.css">
+        </head>
+
+        <body>
+
+          <h1>This is a heading</h1>
+          <p>This is a paragraph.</p>
+
+        </body>
+
+      </html>
+      ```
+
+  * The most common way to add CSS, is to keep the styles in separate CSS files.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="makes-html-pages-more-dynamic-and-interactive-by-javascript"></a>
+Makes HTML pages more dynamic and interactive by JavaScript
+
+  * The `<script>` tag is used to define a client-side script (JavaScript).
+
+  * The `<script>` element either contains scripting statements, or it points to an external script file through the src attribute.
+
+  * Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.
+
+  > This JavaScript example writes "Hello JavaScript!" into an HTML element with id="demo"：
+
+    ```html
+    <script>
+      document.getElementById('demo').innerHTML = 'Hello JavaScript!';
+    </script>
+    ```
 
 **[⬆ back to top](#table-of-contents)**
 
