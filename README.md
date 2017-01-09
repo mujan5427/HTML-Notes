@@ -534,6 +534,57 @@ Non-breaking Space
 <br />
 <br />
 
+## Uniform Resource Locators
+
+HTML URL
+
+  * A URL is another word for a web address.
+
+  * A URL can be composed of words (w3schools.com), or an Internet Protocol (IP) address (192.68.20.50).
+
+  * Web browsers request pages from web servers by using a URL.
+
+  * A Uniform Resource Locator (URL) is used to address a document (or other data) on the web.
+
+  * A web address, like http://www.w3schools.com/html/default.asp follows these syntax rules：
+
+   ```
+   scheme://prefix.domain:port/path/filename
+   ```
+   Explanation：
+
+   - **scheme** - defines the type of Internet service (most common is http or https)
+   - **prefix** - defines a domain prefix (default for http is www)
+   - **domain** - defines the Internet domain name (like w3schools.com)
+   - **port** - defines the port number at the host (default for http is 80)
+   - **path** - defines a path at the server (If omitted: the root directory of the site)
+   - **filename** - defines the name of a document or resource
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="urlencoding"></a>
+URL Encoding
+
+  * URLs can only be sent over the Internet using the ASCII character-set. If a URL contains characters outsid the ASCII set, the URL has to be converted.
+
+  * URL encoding converts non-ASCII characters into a format that can be transmitted over the Internet.
+
+  * URL encoding replaces non-ASCII characters with a `%` followed by hexadecimal digits.
+
+  * URLs cannot contain spaces. URL encoding normally replaces a space with a plus (`+`) sign, or `%20`.
+
+  * Your browser will encode input, according to the character-set used in your page.
+
+  * The default character-set in HTML5 is UTF-8.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
 ## Reference Information
 
 HTML Tutorial (Website：[w3schools](http://www.w3schools.com/html/default.asp))
