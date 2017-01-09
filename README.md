@@ -10,6 +10,10 @@
 
 [Block and Inline Elements](#block-and-inline-elements)
 
+[Entities](#entities)
+
+[Uniform Resource Locators](#uniform-resource-locators)
+
 [DOM](#dom)
 
 [BOM](#bom)
