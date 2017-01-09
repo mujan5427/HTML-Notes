@@ -493,6 +493,47 @@ Inline Elements
 <br />
 <br />
 
+## Entities
+
+HTML Entities
+
+  * Reserved characters in HTML must be replaced with character entities.
+
+  * If you use the less than (`<`) or greater than (`>`) signs in your text, the browser might mix them with tags.
+
+  * Characters that are not present on your keyboard can also be replaced by entities.
+
+  * To display a less than sign (`<`) we must write：`&lt;` or `&#60;`
+
+    ```
+    &entity_name;
+
+    OR
+
+    &#entity_number;
+    ```
+
+    > Advantage of using an entity name：An entity name is easy to remember.
+
+    > Disadvantage of using an entity name： Browsers may not support all entity names, but the support for numbers is good.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="non-breaking-space"></a>
+Non-breaking Space
+
+  * Another common use of the non-breaking space is to prevent that browsers truncate spaces in HTML pages.
+
+  * If you write 10 spaces in your text, the browser will remove 9 of them. To add real spaces to your text, you can use the `&nbsp;` character entity.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
 ## Reference Information
 
 HTML Tutorial (Website：[w3schools](http://www.w3schools.com/html/default.asp))
