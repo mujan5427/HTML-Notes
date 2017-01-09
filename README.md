@@ -589,6 +589,56 @@ URL Encoding
 <br />
 <br />
 
+## APIs
+
+Geolocation
+
+  * The HTML Geolocation API is used to get the geographical position of a user.
+
+  * Since this can compromise privacy, the position is not available unless the user approves it.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+Local Storage
+
+  * With local storage, web applications can store data locally within the user's browser.
+
+  * Before HTML5, application data had to be stored in cookies, included in every server request. Local storage is   more secure, and large amounts of data can be stored locally, without affecting website performance.
+
+  * Unlike cookies, the storage limit is far larger (at least 5MB) and information is never transferred to the   server.
+
+  * Local storage is per origin (per domain and protocol). All pages, from one origin, can store and access the same data.
+
+  * Local storage provides two objects for storing data on the client：
+
+    - **window.localStorage** - stores data with no expiration date
+    - **window.sessionStorage** - stores data for one session (data is lost when the browser tab is closed)
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+Web Worker
+
+  > When executing scripts in an HTML page, the page becomes unresponsive until the script is finished.
+
+  * A web worker is a JavaScript that runs in the background, independently of other scripts, without affecting the performance of the page. You can continue to do whatever you want: clicking, selecting things, etc., while the web worker runs in the background.
+
+  * Since web workers are in external files, they do not have access to the following JavaScript objects：
+
+    - The **window** object
+    - The **document** object
+    - The **parent** object
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
 ## Reference Information
 
 HTML Tutorial (Website：[w3schools](http://www.w3schools.com/html/default.asp))
