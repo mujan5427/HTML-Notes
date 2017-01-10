@@ -836,6 +836,8 @@ Node Relationships
     - nextSibling
     - previousSibling
 
+    ex：
+
       ```html
       <title id="demo">DOM Tutorial</title>     <!-- HTML Example -->
       ```
