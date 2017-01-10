@@ -601,7 +601,7 @@ What is HTML DOM ?
     - XML DOM - standard model for XML documents
     - HTML DOM - standard model for HTML documents
 
-  > We will dive into HTML DOM in following content
+      > We will dive into HTML DOM in following content
 
   * When a web page is loaded, the browser creates a Document Object Model (_DOM_) of the page.
 
