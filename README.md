@@ -836,23 +836,23 @@ Node Relationships
     - nextSibling
     - previousSibling
 
-    ```html
-    <title id="demo">DOM Tutorial</title>     <!-- HTML Example -->
-    ```
+      ```html
+      <title id="demo">DOM Tutorial</title>     <!-- HTML Example -->
+      ```
 
-    > Accessing the innerHTML property is the same as accessing the nodeValue of the first child：
+      > Accessing the innerHTML property is the same as accessing the nodeValue of the first child：
 
-    ```javascript
-    var myTitle = document.getElementById("demo").firstChild.nodeValue;
-    ```
+      ```javascript
+      var myTitle = document.getElementById("demo").firstChild.nodeValue;
+      ```
 
-    OR
+      OR
 
-    > Accessing the first child can also be done like this：
+      > Accessing the first child can also be done like this：
 
-    ```javascript
-    var myTitle = document.getElementById("demo").childNodes[0].nodeValue;
-    ```
+      ```javascript
+      var myTitle = document.getElementById("demo").childNodes[0].nodeValue;
+      ```
 
 **[⬆ back to top](#table-of-contents)**
 
