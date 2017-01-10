@@ -798,8 +798,8 @@ DOM Nodes
 <br />
 <br />
 
-<a name="dom-relationships"></a>
-Node Relationships
+<a name="dom-node-relationships"></a>
+DOM Node Relationships
 
   * The nodes in the node tree have a hierarchical relationship to each other.
 
