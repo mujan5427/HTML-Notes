@@ -810,22 +810,22 @@ Node Relationships
     - A node can have a number of children
     - Siblings (brothers or sisters) are nodes with the same parent
 
-    ```html
-    <html>
+      ```html
+      <html>
 
-      <head>
-          <title>DOM Tutorial</title>
-      </head>
+        <head>
+            <title>DOM Tutorial</title>
+        </head>
 
-      <body>
-          <h1>DOM Lesson one</h1>
-          <p>Hello world!</p>
-      </body>
+        <body>
+            <h1>DOM Lesson one</h1>
+            <p>Hello world!</p>
+        </body>
 
-    </html>
-    ```
+      </html>
+      ```
 
-    ![node tree](http://www.w3schools.com/js/pic_navigate.gif)
+      ![node tree](http://www.w3schools.com/js/pic_navigate.gif)
 
   * You can use the following node properties to navigate between nodes with JavaScript：
 
