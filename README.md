@@ -14,7 +14,7 @@
 
 [Uniform Resource Locators](#uniform-resource-locators)
 
-[DOM](#dom)
+[HTML DOM](#html-dom)
 
 [BOM](#bom)
 
@@ -583,6 +583,155 @@ URL Encoding
   * Your browser will encode input, according to the character-set used in your page.
 
   * The default character-set in HTML5 is UTF-8.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+## HTML DOM
+
+What is HTML DOM ?
+
+  * The DOM is a W3C (World Wide Web Consortium) standard.
+
+  * The W3C DOM standard is separated into 3 different parts
+
+    - Core DOM - standard model for all document types
+    - XML DOM - standard model for XML documents
+    - HTML DOM - standard model for HTML documents
+
+  > We will dive into HTML DOM in following content
+
+  * When a web page is loaded, the browser creates a Document Object Model (_DOM_) of the page.
+
+  * The HTML DOM model is constructed as a tree of Objects：
+
+    ![The HTML DOM Tree of Objects](http://www.w3schools.com/js/pic_htmltree.gif)
+
+  * With the object model, JavaScript gets all the power it needs to create dynamic HTML：
+
+    - JavaScript can change all the HTML elements in the page
+    - JavaScript can change all the HTML attributes in the page
+    - JavaScript can change all the CSS styles in the page
+    - JavaScript can remove existing HTML elements and attributes
+    - JavaScript can add new HTML elements and attributes
+    - JavaScript can react to all existing HTML events in the page
+    - JavaScript can create new HTML events in the page
+
+  * The HTML DOM is a standard object model and programming interface for HTML. It defines：
+
+    - The HTML elements as objects
+    - The properties of all HTML elements
+    - The methods to access all HTML elements
+    - The events for all HTML elements
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="dom-methods"></a>
+DOM Methods
+
+  * The HTML DOM can be accessed with JavaScript (and with other programming languages).
+
+  * In the DOM, all HTML elements are defined as **objects**.
+
+  * The programming interface is the properties and methods of each object.
+
+  * A **property** is a value that you can get or set (like changing the content of an HTML element).
+
+  * A **method** is an action you can do (like add or deleting an HTML element).
+
+    ```html
+    <html>
+    <body>
+
+    <p id="demo"></p>
+
+    <script>
+    document.getElementById("demo").innerHTML = "Hello World!";
+    </script>
+
+    </body>
+    </html>
+    ```
+
+    > In the example above, getElementById is a **method**, while innerHTML is a **property**.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="dom-document"></a>
+DOM Document
+
+  * The HTML DOM document object is the owner of all other objects in your web page.
+
+  * The document object represents your web page.
+
+  * If you want to access any element in an HTML page, you always start with accessing the document object.
+
+    - **document.getElementById(id)**	- Find an element by element id
+    - **document.getElementsByTagName(name)**	- Find elements by tag name
+    - **document.getElementsByClassName(name)**	- Find elements by class name
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="dom-events"></a>
+DOM Events
+
+  * A JavaScript can be executed when an event occurs, like when a user clicks on an HTML element.
+
+  * To execute code when a user clicks on an element, add JavaScript code to an HTML event attribute：
+
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <body>
+
+    <h1 onclick="this.innerHTML = 'Ooops!'">Click on this text!</h1>
+
+    </body>
+    </html>
+    ```
+
+  * To assign events to HTML elements you can use event attributes.
+
+    ```html
+    <button onclick="displayDate()">Try it</button>
+    ```
+
+    > In the example above, a function named displayDate will be executed when the button is clicked.
+
+  * The HTML DOM allows you to assign events to HTML elements using JavaScript：
+
+    ```html
+    <script>
+    document.getElementById("myBtn").onclick = displayDate;
+    </script>
+    ```
+
+    > In the example above, a function named _displayDate_ is assigned to an HTML element with the id="myBtn".
+
+    > The function will be executed when the button is clicked.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="dom-event-listener"></a>
+DOM EventListener
+
+
+
+
 
 **[⬆ back to top](#table-of-contents)**
 
