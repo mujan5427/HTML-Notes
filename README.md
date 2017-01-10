@@ -875,7 +875,7 @@ DOM Node List
   * The nodes can be accessed by an index number. To access the second `<p>` node you can write：
 
     ```javascript
-    y = myNodelist[1];
+    var y = myNodelist[1];
     ```
 
   * The length property defines the number of nodes in a node list：
