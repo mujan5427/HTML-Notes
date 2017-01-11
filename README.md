@@ -891,6 +891,254 @@ DOM Node List
 <br />
 <br />
 
+## BOM
+
+What is BOM ?
+
+  * Browser Object Model(_BOM_)
+
+  * There are no official standards for the BOM.
+
+  * Since modern browsers have implemented (almost) the same methods and properties for JavaScript interactivity, it is often referred to, as methods and properties of the BOM.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="the-window-object"></a>
+The Window Object
+
+  * The window object is supported by all browsers. It represents the browser's window.
+
+  * All global JavaScript objects, functions, and variables automatically become members of the window object.
+
+  * Global variables are properties of the window object.
+
+  * Global functions are methods of the window object.
+
+  * Even the document object (of the HTML DOM) is a property of the window object：
+
+    ```javascript
+    window.document.getElementById("header");
+    ```
+
+    is the same as：
+
+    ```javascript
+    document.getElementById("header");
+    ```
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="window-screen-object"></a>
+Window Screen Object
+
+  * The window.screen object contains information about the user's screen.
+
+  * The window.screen object can be written without the window prefix.
+
+    Properties：
+
+    - screen.width
+    - screen.height
+    - screen.availWidth
+    - screen.availHeight
+    - screen.colorDepth
+    - screen.pixelDepth
+
+    ex :
+
+    ```javascript
+    document.getElementById("demo").innerHTML = "Screen Width: " + screen.width;
+    ```
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="window-location-object"></a>
+Window Location Object
+
+  * The window.location object can be used to get the current page address (URL) and to redirect the browser to a new page.
+
+  * The window.location object can be written without the window prefix.
+
+    Properties：
+
+    - window.location.href - returns the href (_URL_) of the current page
+    - window.location.hostname - returns the domain name of the web host
+    - window.location.pathname - returns the path and filename of the current page
+    - window.location.protocol - returns the web protocol used (http: or https:)
+    - window.location.assign - loads a new document
+
+    ex :
+
+    ```javascript
+    document.getElementById("demo").innerHTML = "Page location is " + window.location.href;
+    ```
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="window-history-object"></a>
+Window History Object
+
+  * The window.history object contains the browsers history.
+
+  * The window.history object can be written without the window prefix.
+
+  * To protect the privacy of the users, there are limitations to how JavaScript can access this object.
+
+    Some methods：
+
+    - history.back() - same as clicking back in the browser
+    - history.forward() - same as clicking forward in the browser
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="window-navigator-object"></a>
+Window Navigator Object
+
+  * The window.navigator object contains information about the visitor's browser.
+
+  * The window.navigator object can be written without the window prefix.
+
+    Some Properties：
+
+    - navigator.appName
+    - navigator.appCodeName
+    - navigator.platform
+    - navigator.cookieEnabled
+
+    ex :
+
+    ```javascript
+    document.getElementById("demo").innerHTML = "cookiesEnabled is " + navigator.cookieEnabled;
+    ```
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="popup-boxes"></a>
+Popup Boxes
+
+  * BOM has three kind of popup boxes：Alert box, Confirm box, and Prompt box.
+
+  * those popup boxes can be written without the window prefix.
+
+    Methods：
+
+    - window.alert()
+    - window.confirm()
+    - window.prompt()
+
+    ex :
+
+    ```javascript
+    alert("I am an alert box!");
+    ```
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="timing-events"></a>
+Timing Events
+
+  * The window object allows execution of code at specified time intervals.
+
+  * These time intervals are called timing events.
+
+  * The two key methods to use with JavaScript are：
+
+    - **setTimeout(function, milliseconds)**
+
+      - Executes a function, after waiting a specified number of milliseconds.
+
+    - **setInterval(function, milliseconds)**
+
+      - Same as setTimeout(), but repeats the execution of the function continuously.
+
+    ex :
+
+    ```html
+    <button onclick="setTimeout(myFunction, 3000)">Try it</button>
+
+    <script>
+    function myFunction() {
+        alert('Hello');
+    }
+    </script>
+    ```
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="cookies"></a>
+Cookies
+
+  * Cookies let you store user information in web pages.
+
+  * Cookies are data, stored in small text files, on your computer.
+
+  * When a web server has sent a web page to a browser, the connection is shut down, and the server forgets everything about the user.
+
+  * Cookies were invented to solve the problem "how to remember information about the user"：
+
+  * When a user visits a web page, his name can be stored in a cookie.
+
+  * Next time the user visits the page, the cookie "remembers" his name.
+
+  * Cookies are saved in name-value pairs like：
+
+    ```
+    username = John Doe
+    ```
+
+  * When a browser requests a web page from a server, cookies belonging to the page is added to the request. This way the server gets the necessary data to "remember" information about users.
+
+  * JavaScript can create, read, and delete cookies with the document.cookie property.
+
+    ```javascript
+    document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";
+    ```
+
+    > You can also add an expiry date (in UTC time). By default, the cookie is deleted when the browser is closed
+
+    > With a path parameter, you can tell the browser what path the cookie belongs to. By default, the cookie belongs to the current page.
+
+  * The document.cookie property looks like a normal text string. But it is not.
+
+  * Even if you write a whole cookie string to document.cookie, when you read it out again, you can only see the name-value pair of it.
+
+  * If you set a new cookie, older cookies are not overwritten. The new cookie is added to document.cookie, so if you read document.cookie again you will get something like：
+
+    ```
+    cookie1 = value; cookie2 = value;
+    ```
+
+  * If you want to find the value of one specified cookie, you must write a JavaScript function that searches for the cookie value in the cookie string.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
 ## APIs
 
 Geolocation
