@@ -101,7 +101,7 @@ HTML Tags
 <br />
 <br />
 
-<a name="html-browsers"></a>
+<a name="web-browsers"></a>
 Web Browsers
 
   * The purpose of a web browser (Chrome, IE, Firefox, Safari) is to read HTML documents and display them.
