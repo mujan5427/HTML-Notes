@@ -26,6 +26,7 @@
 
 ## Introduction
 
+<a name="what-is-html"></a>
 What is HTML ?
 
   * HTML is the standard markup language for creating Web pages.
@@ -256,6 +257,7 @@ Makes HTML pages more dynamic and interactive by JavaScript
 
 ## Elements
 
+<a name="html-elements"></a>
 HTML Elements
 
   * An HTML element usually consists of a start tag and end tag, with the content inserted in between.
@@ -335,6 +337,7 @@ Use Lowercase Tags
 
 ## Attributes
 
+<a name="html-attributes"></a>
 HTML Attributes
 
   * All HTML elements can have attributes.
@@ -422,6 +425,7 @@ Global Attributes
 
 ## Comments
 
+<a name="html-comment"></a>
 HTML Comment
 
   * Comment tags are used to insert comments in the HTML source code.
@@ -465,6 +469,7 @@ Conditional Comments
 
   > [Seeing examples of block-level and inline element on W3Schools](http://www.w3schools.com/html/html_blocks.asp)
 
+<a name="block-level-elements"></a>
 Block-level Elements
 
   * A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
@@ -499,6 +504,7 @@ Inline Elements
 
 ## Entities
 
+<a name="html-entities"></a>
 HTML Entities
 
   * Reserved characters in HTML must be replaced with character entities.
@@ -540,6 +546,7 @@ Non-breaking Space
 
 ## Uniform Resource Locators
 
+<a name="html-url"></a>
 HTML URL
 
   * A URL is another word for a web address.
@@ -591,6 +598,7 @@ URL Encoding
 
 ## HTML DOM
 
+<a name="what-is-html-dom"></a>
 What is HTML DOM ?
 
   * The DOM is a W3C (World Wide Web Consortium) standard.
@@ -893,6 +901,7 @@ DOM Node List
 
 ## BOM
 
+<a name="what-is-bom"></a>
 What is BOM ?
 
   * Browser Object Model (_BOM_)
@@ -1141,6 +1150,7 @@ Cookies
 
 ## APIs
 
+<a name="geolocation"></a>
 Geolocation
 
   * The HTML Geolocation API is used to get the geographical position of a user.
@@ -1152,6 +1162,7 @@ Geolocation
 <br />
 <br />
 
+<a name="local-storage"></a>
 Local Storage
 
   * With local storage, web applications can store data locally within the user's browser.
@@ -1172,6 +1183,7 @@ Local Storage
 <br />
 <br />
 
+<a name="web-worker"></a>
 Web Worker
 
   > When executing scripts in an HTML page, the page becomes unresponsive until the script is finished.
