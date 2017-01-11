@@ -895,7 +895,7 @@ DOM Node List
 
 What is BOM ?
 
-  * Browser Object Model(_BOM_)
+  * Browser Object Model (_BOM_)
 
   * There are no official standards for the BOM.
 
