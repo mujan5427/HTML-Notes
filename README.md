@@ -900,8 +900,10 @@ DOM Node Relationships
     ex：
 
       ```html
-      <title id="demo">DOM Tutorial</title>     <!-- HTML Example -->
+      <title id="demo">DOM Tutorial</title>
       ```
+
+      > The element node `<title>` (in the example above) does not contain text. It contains a text node with the value "DOM Tutorial".
 
       > Accessing the innerHTML property is the same as accessing the nodeValue of the first child：
 
