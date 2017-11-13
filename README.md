@@ -295,7 +295,7 @@ Makes HTML pages more dynamic and interactive by JavaScript
 
   * Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.
 
-  > This JavaScript example writes "Hello JavaScript!" into an HTML element with id="demo"：
+    > This JavaScript example writes "Hello JavaScript!" into an HTML element with id="demo"：
 
     ```html
     <script>
