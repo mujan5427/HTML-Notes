@@ -23,6 +23,7 @@
   3. [Quote Attribute Values](#quote-attribute-values)
   4. [Single Or Double Quotes](#single-or-double-quotes)
   5. [Global Attributes](#global-attributes)
+  6. [data-* Attribute](#data-attribute)
 
 [Comments](#comments)
 
@@ -470,6 +471,33 @@ Single or Double Quotes ?
 Global Attributes
 
   * [The global attributes](http://www.w3schools.com/tags/ref_standardattributes.asp) can be used on **any** HTML element, such as `id`、`class` and `style`.
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+<a name="data-attribute"></a>
+data-* Attribute
+
+  * The `data-*` attributes is a **global attribute** used to store custom data private to the page or application.
+
+  * The `data-*` attributes gives us the ability to embed custom data attributes on all HTML elements.
+
+  * The stored (custom) data can then be used in the page's JavaScript to create a more engaging user experience (without any Ajax calls or server-side database queries).
+
+  * The `data-*` attributes consist of two parts：
+    1. The attribute name should not contain any uppercase letters, and must be at least one character long after the prefix "data-".
+
+    2. The attribute value can be any string.
+
+  * The `*` may be replaced by any name following [the production rule of xml names](https://www.w3.org/TR/REC-xml/#NT-Name) with the following restrictions：
+
+    * the name must not start with xml, whatever case is used for these letters.
+
+    * the name must not contain any semicolon (`U+003A`).
+
+    * the name must not contain capital `A` to `Z` letters.
 
 **[⬆ back to top](#table-of-contents)**
 
