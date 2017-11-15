@@ -74,6 +74,10 @@
   2. [Local Storage](#local-storage)
   3. [Web Worker](#web-worker)
 
+[Performance](#performance)
+
+  1. [Delay JavaScript Loading](#delay-javascript-loading)
+
 [Reference Information](#reference-information)
 
 <br />
@@ -1278,6 +1282,22 @@ Web Worker
     - The **window** object
     - The **document** object
     - The **parent** object
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
+## Performance
+
+<a name="delay-javascript-loading"></a>
+Delay JavaScript Loading
+
+  * Putting your scripts at the bottom of the page body lets the browser load the page first.
+
+  * While a script is downloading, the browser will not start any other downloads. In addition all parsing and rendering activity might be blocked.
+
+  > The HTTP specification defines that browsers should not download more than two components in parallel.
 
 **[⬆ back to top](#table-of-contents)**
 
