@@ -176,6 +176,10 @@ HTML Page Structure
 
   * All HTML documents must start with a document type declaration：`<!DOCTYPE html>`.
 
+    > The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.
+
+    > The <!DOCTYPE> declaration is NOT case sensitive.
+
   * The HTML document itself begins with `<html>` and ends with `</html>`.
 
   * The visible part of the HTML document is between `<body>` and `</body>`.
