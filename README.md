@@ -78,6 +78,10 @@
 
   1. [Delay JavaScript Loading](#delay-javascript-loading)
 
+[HTML Reference](#html-reference)
+
+  1. [script](#script)
+
 [Reference Information](#reference-information)
 
 <br />
@@ -1308,6 +1312,22 @@ Delay JavaScript Loading
 <br />
 <br />
 
+## HTML Reference
+
+<a name="script"></a>
+&lt;script&gt;
+
+  * `async` attribute : If the async attribute is present, then the script will be fetched in parallel to parsing and evaluated as soon as it is available (potentially before parsing completes).
+
+  * `defer` attribute : If the defer attribute is present, then the script will be fetched in parallel and evaluated when the page has finished parsing.
+
+  ![](https://html.spec.whatwg.org/images/asyncdefer.svg)
+
+**[⬆ back to top](#table-of-contents)**
+
+<br />
+<br />
+
 ## Reference Information
 
 HTML Tutorial (Website：[w3schools](http://www.w3schools.com/html/default.asp))
@@ -1315,5 +1335,7 @@ HTML Tutorial (Website：[w3schools](http://www.w3schools.com/html/default.asp))
 How Browsers Work: Behind the scenes of modern web browsers (Author：Tali Garsiel、Paul Irish)
 
 Anatomy of an HTML element (Website：[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#Anatomy_of_an_HTML_element))
+
+Scripting (Website : [WHATWG HTML Living Standard](https://html.spec.whatwg.org/multipage/scripting.html#scripting-3))
 
 <br />
