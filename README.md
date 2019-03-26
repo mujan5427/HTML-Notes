@@ -1238,6 +1238,12 @@ Cookies
 
   * If you want to find the value of one specified cookie, you must write a JavaScript function that searches for the cookie value in the cookie string.
 
+  * The `Domain` and `Path` directives define the scope of the cookie.
+
+  * If Domain is specified, then subdomains are always included.
+
+    > For example, if `Domain=mozilla.org` is set, then cookies are included on subdomains like `developer.mozilla.org`.
+
 **[⬆ back to top](#table-of-contents)**
 
 <br />
