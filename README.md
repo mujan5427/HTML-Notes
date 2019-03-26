@@ -71,7 +71,7 @@
 [APIs](#apis)
 
   1. [Geolocation](#geolocation)
-  2. [Local Storage](#local-storage)
+  2. [Web Storage](#web-storage)
   3. [Web Worker](#web-worker)
 
 [Performance](#performance)
@@ -1263,18 +1263,18 @@ Geolocation
 <br />
 <br />
 
-<a name="local-storage"></a>
-Local Storage
+<a name="web-storage"></a>
+Web Storage
 
-  * With local storage, web applications can store data locally within the user's browser.
+  * With web storage, web applications can store data locally within the user's browser.
 
-  * Before HTML5, application data had to be stored in cookies, included in every server request. Local storage is   more secure, and large amounts of data can be stored locally, without affecting website performance.
+  * Before HTML5, application data had to be stored in cookies, included in every server request. Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance.
 
-  * Unlike cookies, the storage limit is far larger (at least 5MB) and information is never transferred to the   server.
+  * Unlike cookies, the storage limit is far larger (at least 5MB) and information is never transferred to the server.
 
-  * Local storage is per origin (per domain and protocol). All pages, from one origin, can store and access the same data.
+  * Web storage is per origin (per `domain` and `protocol`). All pages, from one origin, can store and access the same data.
 
-  * Local storage provides two objects for storing data on the client：
+  * Web storage provides two objects for storing data on the client：
 
     - **window.localStorage** - stores data with no expiration date
     - **window.sessionStorage** - stores data for one session (data is lost when the browser tab is closed)
